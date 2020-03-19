@@ -38,5 +38,5 @@ let mySprite = sprites.create(img`
     . . . . . . c c c c c b b . . .
 `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-scene.setBackgroundColor(8)
+scene.setBackgroundColor(1)
 game.splash("welcome to duck")
